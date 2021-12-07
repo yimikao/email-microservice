@@ -1,0 +1,28 @@
+{
+  "name": "email-microservice",
+  "version": "1.0.0",
+  "description": "an api service to dispatch emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yimikao/email-microservice.git"
+  },
+  "author": "github.com/yimikao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yimikao/email-microservice/issues"
+  },
+  "homepage": "https://github.com/yimikao/email-microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.2",
+    "sib-api-v3-sdk": "^8.2.1"
+  }
+}
