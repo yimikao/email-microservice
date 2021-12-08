@@ -1,10 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const singleMail = require("../controllers/single-mail");
+const sendSingleMail = require("../controllers/single-mail");
+const sendBulkMail = require("../controllers/single-mail");
 
 
-router.post("/sendmail/single", singleMail)
+router.post("/sendmail/single", sendSingleMail)
 
-// router.post("sendmail/bulk", )
+router.post("sendmail/bulk", sendBulkMail)
 
 module.exports = router;
