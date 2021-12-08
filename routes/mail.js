@@ -8,4 +8,6 @@ router.post("/sendmail/single", sendSingleMail)
 
 router.post("sendmail/bulk", sendBulkMail)
 
+router.post("sendmail/template", sendTemplateMail)
+
 module.exports = router;
